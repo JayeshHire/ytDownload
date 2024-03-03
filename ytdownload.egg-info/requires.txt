@@ -1,3 +1,0 @@
-pytube==15.0.0
-Pillow==9.4.0
-requests
