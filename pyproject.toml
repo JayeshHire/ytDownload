@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ytdownload"
+version = "0.0.1"
+dependencies = [
+	"pytube==15.0.0",
+	"Pillow==9.4.0",
+	"requests",
+]
+
+[project.scripts]
+yt-media = "ytDownload.main:main"
