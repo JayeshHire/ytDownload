@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ytdownload"
+version = "0.0.1"
+authors = [
+	{ name = "Jayesh Hire", email="jayeshhire96@gmail.com"}
+]
+description = "A small cli tool for downloading youtube video, audio, and video thumbnail"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+	"pytube==15.0.0",
+	"Pillow==9.4.0",
+	"requests",
+]
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+
+[project.scripts]
+yt-media = "ytDownload.main:main"
+
+[project.urls]
+Homepage = "https://github.com/JayeshHire/ytDownload"
+Issues = "https://github.com/JayeshHire/ytDownload/issues"
