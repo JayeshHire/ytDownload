@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ytdownload"
+name = "ytMediaDownload"
 version = "0.0.1"
 authors = [
 	{ name = "Jayesh Hire", email="jayeshhire96@gmail.com"}
