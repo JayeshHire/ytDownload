@@ -5,10 +5,9 @@
 ```
  python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps ytMediaDownload
 ```
-
-					**or**
-
+## **or**
 **use this command**
+
 Running above command without ` python3 -m` should also work.
 ```
 pip install --index-url https://test.pypi.org/simple/ --no-deps ytMediaDownload
