@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "ytMediaDownload"
-version = "0.0.1"
+version = "0.0.4"
 authors = [
 	{ name = "Jayesh Hire", email="jayeshhire96@gmail.com"}
 ]
@@ -12,8 +12,8 @@ description = "A small cli tool for downloading youtube video, audio, and video 
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-	"pytube",
-	"Pillow==9.4.0",
+	"pytube==15.0.0",
+	"Pillow>=9.4.0",	
 	"requests",
 ]
 classifiers = [
